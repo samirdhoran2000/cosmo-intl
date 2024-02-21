@@ -11,7 +11,25 @@ Version: 1.0
 # Base - Genral & Typography
 
 ----------------------------------------------------------------------------- */
-
+.contact-stip {
+  height: 30px;
+  width: 100%;
+  background-color: #00000000;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: absolute;
+  z-index: 5;
+  top: 1px;
+  right: 20px;
+  color: #ffffff;
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+  .contact-stip {
+    display: none;
+  }
+}
 .justify-content-between {
   display: flex;
   justify-content: space-between;
@@ -507,7 +525,7 @@ a.cart-btn {
 }
 
 .breadcrumb-bg {
-  background-image: url(../img/breadcrumb-bg.jpg);
+  background-image: url(../img/hand-shake.png);
 }
 
 .breadcrumb-text p {
@@ -1354,6 +1372,11 @@ ul.product-share li:hover a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  min-height: 395px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .single-product-item:hover {
@@ -1507,15 +1530,15 @@ input[type="submit"] {
 
 .homepage-bg-1 {
   /* background-image: url(../img/hero-bg.jpg); */
-  background-image: url(../img/cosgo/close-up-cobbler-working-with-leather-textile.jpg);
+  background-image: url(../img/cosgo/leather_slider_bg.jpg);
 }
 
 .homepage-bg-2 {
-  background-image: url(../img/cosgo/fresh-coffee-steams-wooden-table-close-up-generative-ai.jpg);
+  background-image: url(../img/cosgo/coffee_slider_bg.jpg);
 }
 
 .homepage-bg-3 {
-  background-image: url(../img/cosgo/top-view-hay-background.jpg);
+  background-image: url(../img/cosgo/jute_slider_bg.jpg);
 }
 .homepage-bg-4 {
   background-image: url(../img/cosgo/handy-craft.jpeg);
@@ -1649,15 +1672,15 @@ div.owl-controls,
 }
 
 .news-bg-5 {
-  background-image: url(../img/latest-news/news-bg-5.jpg);
+  background-image: url(../img/latest-news/blog_5.png);
 }
 
 .news-bg-6 {
-  background-image: url(../img/latest-news/news-bg-6.jpg);
+  background-image: url(../img/latest-news/blog_6.png);
 }
 
 .latest-news-bg {
-  height: 200px;
+  min-height: 200px;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -2111,7 +2134,7 @@ a.video-play-btn {
 }
 
 .abt-bg {
-  background-image: url(../img/cosgo/close-up-engraving-art-tools.jpg);
+  background-image: url(../img/cosgo/leather_with_carving.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
