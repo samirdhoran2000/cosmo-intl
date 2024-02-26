@@ -47,6 +47,8 @@
 
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
+		<p class="contact-stip">Call : +48 22 208 4699 <button id="translateButton">Translate to Polish</button>
+		</p>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 text-center">
@@ -339,6 +341,13 @@
 	<script src="assets/js/form-validate.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+
+	<script src="https://translate.google.com/translate_a/element.js?cb=translateElementInit"></script>
+	<script>
+		function translateElementInit() {
+			new google.translate.TranslateElement({ pageLanguage: 'en' }, 'translateButton');
+		}
+	</script>
 
 </body>
 

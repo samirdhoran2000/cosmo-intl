@@ -48,7 +48,7 @@
 	<!-- contact stip  -->
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
-		<p class="contact-stip">Call : +48 22 208 4699
+		<p class="contact-stip">Call : +48 22 208 4699 <button id="translateButton">Translate to Polish</button>
 		</p>
 		<div class="container">
 			<div class="row">
@@ -690,7 +690,7 @@
 		</div>
 	</div>
 	<!-- end footer -->
-
+	
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
@@ -703,24 +703,24 @@
 								Hossain</a></span>
 					</p>
 					<p style="font-size: 9px;"><a
-							href="https://www.freepik.com/free-photo/close-up-cobbler-working-with-leather-textile_7573202.htm#fromView=search&page=1&position=13&uuid=61d39aa5-74cd-406b-8871-1a1e6cbd0033">Image
-							by drobotdean on Freepik</a> |
+						href="https://www.freepik.com/free-photo/close-up-cobbler-working-with-leather-textile_7573202.htm#fromView=search&page=1&position=13&uuid=61d39aa5-74cd-406b-8871-1a1e6cbd0033">Image
+						by drobotdean on Freepik</a> |
 						<a
-							href="https://www.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_40950852.htm#fromView=search&page=1&position=2&uuid=f6d7fc00-7693-4c67-8f29-0821c17d158e">Image
+						href="https://www.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_40950852.htm#fromView=search&page=1&position=2&uuid=f6d7fc00-7693-4c67-8f29-0821c17d158e">Image
 							by vecstock on Freepik</a> |
-						Image by <a
+							Image by <a
 							href="https://www.freepik.com/free-photo/top-view-hay-background_12095482.htm#query=jute%20plants&position=7&from_view=search&track=ais&uuid=c9ba9487-a823-43c5-a434-4d8eed432dad">Freepik</a>
-						|
+							|
 						<a
 							href="https://www.freepik.com/free-photo/stylized-cup-coffee-out-coffee-beans-flat-lay_32846533.htm#fromView=search&page=3&position=18&uuid=6f70263b-6902-4d96-b52f-215bab3c4a8f">Image
 							by pvproductions on Freepik</a> |
-						<a
+							<a
 							href="https://www.freepik.com/free-photo/leahter-textured-background_3219116.htm#fromView=search&page=1&position=35&uuid=d0dbb0eb-52a1-4ce8-aaa4-d82c6181713c">Image
 							by rawpixel.com on Freepik</a> |
-						<a
+							<a
 							href="https://www.freepik.com/free-ai-image/decorative-terracotta-vase-with-intricate-indigenous-pattern-generated-by-ai_41562563.htm#query=pottery&position=7&from_view=search&track=sph&uuid=88b265ea-608d-4467-93c6-8f2dffe07d40">Image
 							by vecstock on Freepik</a> |
-						Image by <a
+							Image by <a
 							href="https://www.freepik.com/free-photo/close-up-engraving-art-tools_20523262.htm#query=leather%20product&position=11&from_view=search&track=ais&uuid=532bdc4b-6f93-44f5-8b6b-9c4e1a93fe56">Freepik</a>
 						|
 						<a
@@ -730,7 +730,7 @@
 							href="https://www.freepik.com/free-photo/artisan-doing-woodcutting_49680908.htm#query=wooden%20indian%20handicrafts&position=10&from_view=search&track=ais&uuid=d5d4eddc-5393-439c-91ed-e7d2e9234692">Freepik</a>
 						|
 
-
+						
 
 					</p>
 				</div>
@@ -749,7 +749,7 @@
 		</div>
 	</div>
 	<!-- end copyright -->
-
+	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -770,6 +770,12 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
+	<script src="https://translate.google.com/translate_a/element.js?cb=translateElementInit"></script>
+	<script>
+		function translateElementInit() {
+								new google.translate.TranslateElement({ pageLanguage: 'en' }, 'translateButton');
+							}
+						</script>
 
 </body>
 
